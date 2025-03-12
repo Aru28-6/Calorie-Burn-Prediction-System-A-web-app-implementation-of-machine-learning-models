@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 # Load the saved model
-loaded_model = pickle.load(open('C:/Users/DELL/Desktop/Minor Project/Calorie_burn/trained_model_c.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/DELL/Desktop/Cloud Computing/Minor Project/Calorie_burn/trained_model_c.sav', 'rb'))
 
 
 def calorie_prediction(input_data):

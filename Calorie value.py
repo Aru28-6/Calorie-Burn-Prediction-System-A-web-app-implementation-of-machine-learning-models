@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/DELL/Desktop/Minor Project/Calorie_burn/trained_model_c.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/DELL/Desktop/Cloud Computing/Minor Project/Calorie_burn/trained_model_c.sav', 'rb'))
 # Example input data: replace these values with the actual inputs
 input_data = {
     'Gender': 0,  # 0 for male, 1 for female
